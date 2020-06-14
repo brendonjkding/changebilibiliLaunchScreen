@@ -1,0 +1,8 @@
+Package: com.brend0n.changebilibililaunchscreen
+Name: changebilibiliLaunchScreen
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: switch bilibili launch screen
+Maintainer: Brend0n <brendonjkding@126.com>
+Author: Brend0n <brendonjkding@126.com>
+Section: Utilities

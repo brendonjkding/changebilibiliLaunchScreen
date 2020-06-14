@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>旧版本的启动画面含有启动后的动画</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.brend0n.changebilibiliLaunchScreen</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>开启动画</string>
+			<key>PostNotification</key>
+			<string>com.brend0n.changebilibiliLaunchScreen/loadPref</string>
+		</dict>
+
+		<!-- <dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>本插件可能适用其它unity游戏，请自行测试</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>选择其它游戏</string>
+			<key>action</key>
+			<string>selectApp</string>
+		</dict> -->
+	</array>
+	<key>title</key>
+	<string>changebilibiliLaunchScreen</string>
+</dict>
+</plist>
